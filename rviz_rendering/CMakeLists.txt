@@ -117,7 +117,7 @@ target_include_directories(rviz_rendering
 # which is appropriate when building the dll but not consuming it.
 target_compile_definitions(rviz_rendering PRIVATE "RVIZ_RENDERING_BUILDING_LIBRARY")
 
-ament_export_targets(rviz_rendering)
+ament_export_interfaces(rviz_rendering)
 ament_target_dependencies(rviz_rendering
   PUBLIC
   rviz_assimp_vendor
