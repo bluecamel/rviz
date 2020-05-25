@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.5)
 
 project(rviz_default_plugins)
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 14)
